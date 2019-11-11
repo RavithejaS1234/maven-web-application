@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-RELEASE</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://35.154.218.98:9000/</sonar.host.url>
-		<sonar.login>ed5764c1da31b5057ff71ed66d8ea5836d7f00e8</sonar.login>
+		<sonar.host.url>http://http://13.235.77.192:9000//</sonar.host.url>
+		<sonar.login>cda1db10ca85beeab490dafaab1b12d59f415f82</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.232.44.188:8081/repository/paytm-release/</url>
+	      <url>http://13.233.112.24:8081/repository/amzon-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.232.44.188:8081/repository/paytm-snapshot/</url>
+	      <url>http://13.233.112.24:8081/repository/amazon-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
